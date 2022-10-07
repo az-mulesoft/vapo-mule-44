@@ -1,0 +1,34 @@
+# Host and Port for accessing Anypoint Platform. Port default is 443.
+ANYPOINT_HOST=anypoint.mulesoft.com
+ANYPOINT_PORT=443
+
+# Credentials for accessing Anypoint Platform
+ANYPOINT_USERNAME=ANYPOINT_USER
+ANYPOINT_PASSWORD=ANYPOINT_PASS
+
+# Organization Name
+orgName=BUSINESS_GROUP
+
+# Environment Name
+envName=Sandbox
+
+# appName will identify the server/cluster/group name in Runtime Manager. Used to generate group/cluster name.
+appName=HelloWorld1
+
+# Where nodeStyle is one of: CLUSTER, SERVER_GROUP, or NONE (for standalone runtime). Defaults to NONE.
+#nodeStyle=SERVER_GROUP
+
+# Override the container hostname and the derrived Runtime name. Default is the randomly assigned docker/k8s hostname.
+#HOSTNAME=hostname1
+
+# Set the Cluster or Group Name in Runtime Manager. Defaults to "$appName-$runtime_mode" 
+#groupOrClusterName=myCluster1
+
+# This mule license in base64 format. If this variable is set it will overwrite any license set to $MULE_HOME/license.lic.
+# Must -not- contain newlines in setting the variable (-w0 option for base64).
+# Example generating from license.lic on MacOs/Linux using base64 utility:   base64 -w0 license.lic
+MULE_LICENSE_B64=REPLACE_WITH_BASE64_LICENSE_KEY
+
+APP_DEPLOY_FROM=/opt/stow
+
+APP_DEPLOY_STYLE=MANAGED

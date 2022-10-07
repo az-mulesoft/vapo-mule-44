@@ -1,0 +1,12 @@
+CONTENTS of source directory:
+
+license.lic :: License file for Mule Runtime
+jre*.tar.gz      :: Java jre  url: https://www.oracle.com/java/technologies/javase-jre8-downloads.html
+mule-*.zip  :: Mule Runtime  url: https://www.mulesoft.com/lp/dl/mule-esb-enterprise
+
+### Example structure
+# ls -1
+CONTENTS
+jre-8u271-linux-x64.tar.gz
+license.lic
+mule-ee-distribution-standalone-4.3.0.zip
